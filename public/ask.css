@@ -1,0 +1,49 @@
+.title ul {
+  display: flex;
+  /* border: 1px red solid; */
+  background-color: black;
+}
+
+.title ul li {
+  list-style: none;
+  padding-right: 30px;
+}
+
+.title ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  box-sizing: border-box;
+}
+
+.main-content {
+  width: 80vw;
+  position: relative;
+  margin: 0 auto;
+}
+
+#submit-btn {
+  background-color: black;
+  color: white;
+  width: 50px;
+}
+
+.question-content {
+  position: relative;
+  outline: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.main-form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: darkslategrey;
+}

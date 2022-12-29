@@ -1,0 +1,47 @@
+.title ul {
+  display: flex;
+  /* border: 1px red solid; */
+  background-color: black;
+}
+
+.title ul li {
+  list-style: none;
+  padding-right: 30px;
+}
+
+.title ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.question-content {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: darkslategrey;
+}
+.btn-group {
+  position: relative;
+  top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.btn-group button {
+  height: 35px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: white;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+#dislike {
+  background-color: rgba(255, 0, 0, 0.816);
+}
+#like {
+  background-color: rgba(0, 0, 255, 0.768);
+}
